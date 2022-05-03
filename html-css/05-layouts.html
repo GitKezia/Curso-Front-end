@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<title>HTML - Layouts</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		 <!-- RESET -->
+		 <link rel="stylesheet" type="text/css" href="./css/reset.css">
+
+		 <!-- GOOGLE FONTS -->
+		 <link rel="preconnect" href="https://fonts.googleapis.com">
+		 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		 <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Sansita+Swashed:wght@300;400&display=swap" rel="stylesheet">
+  
+		 <!-- Estilos Personalizados -->         
+		 <link rel="stylesheet" type="text/css" href="./css/layout.css">
+		 <link rel="stylesheet" type="text/css" href="./css/layouts-fluidos.css">
+		 <link rel="stylesheet" type="text/css" href="./css/other-pages.css">
+
+		<style>
+			* {
+			  box-sizing: border-box;
+			}
+
+			body {
+			  font-family: Arial, Helvetica, sans-serif;
+			}
+
+			/* Style the header */
+			header {
+			  background-color: #345;
+			  padding: 30px;
+			  text-align: center;
+			  font-size: 35px;
+			  color: white;
+			}
+
+			/* Create two columns/boxes that floats next to each other */
+			nav {
+			  float: left;
+			  width: 30%;
+			   
+			  background: #ccc;
+			  padding: 20px;
+			}
+
+			/* Style the list inside the menu */
+			nav ul {
+			  list-style-type: none;
+			  padding: 0;
+			}
+
+			article {
+			  float: left;
+			  padding: 20px;
+			  width: 70%;
+			  background-color: #f1f1f1;
+			}
+
+			/* Clear floats after the columns */
+			section::after {
+			  background: #ccc;
+			  content: "";
+			  display: table;
+			  clear: both;
+			}
+
+			/* Style the footer */
+			footer {
+			  background-color: #345;
+			  padding: 10px;
+			  text-align: center;
+			  color: white;
+			}
+
+			/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+			@media (max-width: 600px) {
+			  nav, article {
+			    width: 100%;
+			    height: auto;
+			  }
+			}
+			</style>
+	</head>
+	<body class="layouts">
+
+		<header>
+			<h2>Curso Front-end</h2>
+			<p>Aprenda do Zero ao Pro</p>
+			<div><h2>EBAC</h2></div>
+				<h5>Escola Britânica de Artes Criativas e Tecnologia</h5>
+			<p>Aprenda de modo prático</p>
+			<h2>Trechos do Livro</h2>
+		</header>
+
+		<section>
+
+			<nav class="nav-lay">
+				<ul>
+					<li><a href="#home">Home</a></li>
+					<li><a href="#sobre">Sobre</a></li>
+					<li><a href="./06-formularios.html">Contato</a></li>
+				</ul>
+				<h3>Aulas</h3>
+				<ul class="a">
+				    <li>
+						<a href="modulo-07-exercicio.html" target="_blank">Módulo 07</a>
+					</li>
+					<li>
+						<a href="05-layouts.html" target="_blank">Layouts</a>
+					</li>
+					<li>
+						 <a href="06-formularios.html" target="_blank">Formulários</a>
+					</li>    
+				</ul>
+			</nav>
+			
+
+			<article>
+
+				<h1>"Você é Inesquecível" por Augusto Cury</h1>
+
+				       <p>Você pode ter defeitos, viver ansioso e ficar irritado algumas vezes,mas não se esqueça de que sua vida é a maior empresa do mundo. E você pode evitar que ela vá a falência. Há muitas pessoas que precisam, admiram e torcem por você.</p>
+
+                       <p>Gostaria que você sempre se lembrasse de que ser feliz não é ter um céu sem tempestade, caminhos sem acidentes, trabalhos sem fadigas, relacionamentos sem desilusões.</p>
+
+                       <p>Ser feliz é encontrar força no perdão, esperança nas batalhas, segurança no palco do medo, amor nos desencontros.
+
+                       Ser feliz não é apenas valorizar o sorriso, mas refletir sobre a tristeza. Não é apenas comemorar o sucesso, mas aprender lições nos fracassos. Não é apenas ter júbilo nos aplausos, mas encontrar alegria no anonimato.</p>
+
+                       <p>Ser feliz é reconhecer que vale a pena viver, apesar de todos os desafios, incompreensões e períodos de crise.</p>
+
+                       <p>Ser feliz é deixar de ser vítima dos problemas e se tornar um autor da própria história. É atravessar desertos fora de si, mas ser capaz de encontrar um oásis no recôndito da sua alma. É agradecer a Deus a cada manhã pelo milagre da vida.</p>
+
+                       <p>Ser feliz é não ter medo dos próprios sentimentos. É saber falar de si mesmo. É ter coragem para ouvir um “não”. É ter segurança para receber uma crítica, mesmo que injusta.</p>
+
+                       <p>Ser feliz é deixar viver a criança livre, alegre e simples que mora dentro de cada um de nós. É ter maturidade para falar “eu errei”. É ter ousadia para dizer “me perdoe”. É ter sensibilidade para expressar “eu preciso de você”. É ter capacidade de dizer “eu te amo”. É ter humildade da receptividade.</p>
+
+                       <p>Desejo que a vida se torne um canteiro de oportunidades para você ser feliz. E, quando você errar o caminho, recomece. Pois assim você descobrirá que ser feliz não é ter uma vida perfeita. Mas usar as lágrimas para irrigar a tolerância. Usar as perdas para refinar a paciência. Usar as falhas para lapidar o prazer. Usar os obstáculos para abrir as janelas da inteligência.</p>
+
+                       <p>Jamais desista de si mesmo.
+                       Jamais desista das pessoas que você ama.
+                       Jamais desista de ser feliz, pois a vida é um espetáculo imperdível, ainda que se apresentem dezenas de fatores a demonstrarem o contrário.</p> 
+
+			</article>
+
+
+		</section>
+
+		<footer>
+			<p>Desenvolvido por Kezia Victoria</p>
+		</footer>
+		
+	</body>
+</html>

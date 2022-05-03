@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- RESET -->
+    <link rel="stylesheet" type="text/css" href="./css/reset.css">
+
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Lobster&family=Oswald:wght@600&family=Sansita+Swashed:wght@300;400&display=swap" rel="stylesheet">
+
+    <!-- Estilos Personalizados -->
+    <link rel="stylesheet"  type="text/css" href="./css/layout.css">
+    <link rel="stylesheet"  type="text/css" href="./css/graficos.css">
+    <title>Layouts Web</title>
+</head>
+<body>
+    <header>
+        <h2>Front-end</h2>
+        <h3>As belezas de Hallstatt - Aústria</h3>
+    </header>
+
+    <section>
+        <nav>
+            <h3>Aulas</h3>
+            <ul class="navegacao">
+                <li><a href="01-introducao.html">Introdução</a></li>
+                <li><a href="02-listas-e-links.html">Listas e Links</a></li>
+                <li><a href="03-formatacao-de-texto.html">Formatação de Texto</a></li>
+                <li><a href="04-tabelas.html">Tabelas</a></li>
+                <li><a href="05-layouts.html">Layouts</a></li>
+                <li><a href="06-formularios.html">Formulários</a></li>
+                <li><a href="07-fundamentos.html">Fundamentos</a></li>
+                <li><a href="08-layouts-fluidos.html" target="meu_iframe">Layouts Fluídos</a></li>
+                <li><a href="09-elementos-graficos.html">Elementos Gráficos</a></li>
+                <li><a href="https://ebaconline.com.br" target="_blank">EBAC</a></li>
+            </ul>
+        </nav>
+        <article>
+
+            <h1>Design Responsivo</h1>
+            
+            <div class="coluna">
+            
+                <h3>Layouts em Coluna</h3>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/Zoiu0LpTku8" 
+                title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                allowfullscreen></iframe>
+            </div>
+            <div class="coluna">
+                <div id="grafico-01">
+                    <img class="filtro" src="./imagens/hallstat.jpeg" alt="Hallstatt">
+                </div>
+            </div>
+            <div class="coluna coluna-3">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <p>lorem ipsum</p>
+            </div>
+            <div class="coluna">
+                <!-- Cria uma moldura para carregar
+                uma página dentro da outra -->
+                <iframe src="modulo-07-exercicio.html" frameborder="0" width="100%" height="400px" name="meu_iframe"></iframe>
+            </div>
+            <div class="coluna coluna-100w">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2692.0044427476623!2d13.659902315529202!3d47.56770197918214!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47713616443ffd7b%3A0x51e6362c1d16851d!2sHallstatt!5e0!3m2!1spt-BR!2sbr!4v1651089588539!5m2!1spt-BR!2sbr"
+                 width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </article>
+    </section>
+    <footer>
+        <p>Desenvolvido por Kezia Victoria</p>
+    </footer>
+</body>
+</html>

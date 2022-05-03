@@ -1,0 +1,70 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-family: 'Times New Roman', Times, serif;
+    color: #333333;
+}
+
+body {
+    height: 10vh;
+    background-color: blanchedalmond;
+}
+
+h1, p {
+    padding: 1rem;
+}
+
+div {
+    display: block;
+    padding: 20px;
+    margin: 0;
+}
+
+.width-100 {
+    width: 100%;
+    width: 100vw; /* viewport width */
+    background-color: aqua;
+    
+    padding: 20px;
+    height: 400px;
+}
+
+nav {
+    width: 20%;
+    float: left;
+    display: table;
+    height: 100%;
+}
+article {
+    width: 80%;
+    float: left;
+    height: 100%;
+    box-sizing: border-box; /*  considera o padding e o border na largura e altura */
+}
+
+
+.fixed-width {
+    background-color: blueviolet;
+    width: 200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.background {
+    background-color:blueviolet;
+    background-image: url(../imagens/pattern.jpeg);
+    width: 100%;
+    height: 41vh;
+    background-repeat: repeat-y;  /* vertical */
+    background-repeat: repeat-x;  /* horizontal */
+}
+
+div img {
+    width: 100%;
+}
+
+

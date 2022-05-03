@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./css/graficos.css">
+
+    <!-- GOOGLE FONTS -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Sansita+Swashed:wght@300;400&display=swap" rel="stylesheet">
+        
+    <title>Document</title>
+</head>
+<body  class="e">
+    <header>
+        <h2>Curso Front-end</h2>
+        <p>Aprenda do Zero ao Pro</p>
+        <div><h2>EBAC</h2></div>
+            <h5>Escola Britânica de Artes Criativas e Tecnologia</h5>
+        <p>Aprenda de modo prático</p>
+     </header>
+     <section>
+        <nav>
+            <h3>Aulas</h3>
+            <ul>
+               <li>
+                  <a href="modulo-07-exercicio.html" target="_blank">Módulo 07</a>
+               </li>
+               <li>
+                  <a href="05-layouts.html" target="_blank">Layouts</a>
+               </li>
+               <li>
+                  <a href="06-formularios.html" target="_blank">Formulários</a>
+               </li>    
+            </ul>
+         </nav>
+
+         <article>
+
+         <h1>Elementos Gráficos</h1>
+
+          <div id="grafico-01">
+            <img src="./imagens/devjava.jpeg" alt="Código">
+            <img src="./imagens/devjava.jpeg" alt="Java">
+          </div>
+          <div id="grafico-02">
+    
+          </div>
+       
+           <div id="imagem-vetorial">
+            <img src="./imagens/kitty.svg" alt="Gato">
+           </div>
+    
+         <div>
+            <canvas id="canvas"></canvas>
+         </div>
+    
+         <script>
+            var canvas = document.getElementById("canvas");
+            var ctx = canvas.getContext("2d");
+            ctx.fillStyle = "#00FF99";
+            ctx.fillRect(80, 0, 100, 80);
+         </script>
+
+         </article>
+
+     </section>
+    
+<footer>
+    <p>Desenvolvido por Kezia Victoria</p>
+</footer>
+
+</body>
+</html>

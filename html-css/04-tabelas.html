@@ -1,0 +1,113 @@
+<!DOCTYPE html> 
+<hmtl lang="pt_BR">
+     <head>
+       <title>HTML - Tabelas</title>
+       <meta charset="UTF-8">
+      
+       <!-- GOOGLE FONTS -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Sansita+Swashed:wght@300;400&display=swap" rel="stylesheet">
+
+        <!-- Estilos Personalizados -->         
+        <link rel="stylesheet" type="text/css" href="./css/layout.css">
+        <link rel="stylesheet" type="text/css" href="./css/layouts-fluidos.css">
+        <link rel="stylesheet" type="text/css" href="./css/other-pages.css">
+      
+	   	
+  
+     </head>
+         
+         <body>
+     
+          <header>
+            <h2>Curso Front-end</h2>
+            <p>Aprenda do Zero ao Pro</p>
+            <div><h2>EBAC</h2></div>
+            <h5>Escola Britânica de Artes Criativas e Tecnologia</h5>
+            <p>Aprenda de modo prático</p>
+          </header>
+          
+          <section>
+
+            <nav class="table-container table">
+              <h3>Aulas</h3>
+              <ul>
+               <li><a href="modulo-07-exercicio.html" target="_blank">Módulo 07</a></li>
+               <li><a href="05-layouts.html" target="_blank">Layouts</a></li>
+               <li><a href="06-formularios.html" target="_blank">Formulários</a></li>     
+              </ul>
+            </nav>
+          <article>
+            <div class="table-container table"> 
+              
+              <h1>Tabelas</h1> 
+  
+              <table>
+               <thead>
+                <tr>
+                 <th>Coluna 1</th>
+                 <th>Coluna 2</th>
+                 <th>Coluna 3</th>
+                </tr>
+                
+               </thead>
+               <tbody>
+                <tr>
+                  <td>1A</td>
+                  <td>1B</td>
+                  <td>1C</td>
+                 </tr>
+                 <tr>
+                  <td>2A</td>
+                  <td>2B</td>
+                  <td>2C</td>
+                 </tr>
+                 <tr>
+                  <td>3A</td>
+                  <td colspan="2">3BC</td>
+                </tr>
+             
+              </tbody>
+              <tfoot>
+                <tr>
+                  <td colspan="3">Rodapé da tabela</td>
+                </tr>
+              </tfoot>
+              </table>
+  
+  
+              <h2>Tabela como layout</h2>
+  
+              <table class="container-table" width="600">
+                <tr height="90">
+                <td class="table container-table table-container container" coslpan="4">Oi</td>
+                </tr>
+                <tr height="300">
+                  <td width="20" bgcolor="#0000FF"></td>
+                  <td width="60%" bgcolor="#DDDDDD">
+                    <h2>Título</h2>
+                    <p>Primeira Tabela</p>
+  
+                  </td>
+                  <td bgcolor="#EEEEEE"> Coluna 2</td>
+                  <td width="20"bgcolor="0000FF"></td>
+                 </tr>
+                 <tr>
+                  <td  bgcolor= "#FF0000" colspan="4" align="center">Rodapé</td>
+                </tr>
+              </table>
+  
+            </div>
+      
+          </article>
+            
+          </section>
+
+        <footer>
+            <p>Desenvolvido por Kezia Victoria</p>
+        </footer>
+          
+               
+         </body>
+</html>

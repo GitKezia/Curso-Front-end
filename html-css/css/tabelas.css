@@ -1,0 +1,126 @@
+
+
+table {
+	border: 1px solid;
+	background: #ffffff;
+	width: 100%;
+	border-collapse: collapse;
+}
+
+table tr {
+	border: 1px solid #db45a9;
+}
+table tbody tr:nth-child(odd) {
+	background-color: #eecbec ;
+}
+
+
+table tbody tr:hover {
+	background-color: rgba(0, 0, 255, .2);
+}
+
+table th,
+table td {
+	padding: 1rem;
+	font-size: 1.6rem;
+	text-align: right;
+	height: 3rem;
+	vertical-align: middle;
+}
+
+table tr td:first-child {
+     text-align: left;
+     font-weight: bold;
+}
+
+table th {
+	background-color: 	#836FFF;
+	color: #180e07;
+	font-weight: bold;
+	font-size: 1.8rem;
+	text-align: left;
+}
+
+.table-container h3 {
+  font-family: 'Lobster', cursive;
+ font-family: 'Sansita Swashed', cursive;
+ color:	whitesmoke;
+ font-size: 30px;
+}
+
+.table-container {
+	padding: 2rem 1rem;
+}
+
+.table-container h3 {
+	font-size: 1.8rem;
+	font-style: normal;
+	margin-bottom: 1rem;
+}
+
+.table-container tfoot {
+	background:	#E0FFFF ;
+}
+
+.table-container tfoot td {
+	font-weight: bold;
+}
+
+.table h1 {
+	text-align: middle;
+	color: #eb8424;
+	font-family: 'Fjalla One', sans-serif;
+    font-family: 'Lobster', cursive;
+    font-family: 'Sansita Swashed', cursive;
+	padding: 1rem;
+	font-size: 30px;
+}
+
+.table table {
+	border: 1px solid rgb(248, 241, 246);
+	width: 100%;
+}
+
+.table th {
+  color: whitesmoke;
+  text-align: center;
+}
+
+.table h2 {
+	text-align: center;
+	color: rgb(231, 101, 101);
+	font-size: 20px;
+	font-family: 'Fjalla One', sans-serif;
+    font-family: 'Lobster', cursive;
+    font-family: 'Sansita Swashed', cursive;
+	padding: 2rem;
+}
+
+.container-table table {
+	width: 600%;
+}
+
+.container-table tr {
+	height: 90%;
+}
+
+.container {
+	text-align: center;
+	font-size: 1.5rem;
+	color: whitesmoke;
+}
+
+.table tbody tr:nth-child(odd) {
+	background-color: #85d9e4 ;
+}
+.table table tr {
+	border: 1px solid #eee0e9;
+}
+.table-container nav {
+	background-color: transparent;
+}
+
+
+
+
+

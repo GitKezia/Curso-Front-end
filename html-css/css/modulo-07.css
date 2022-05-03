@@ -1,0 +1,214 @@
+/* Importando CSS de Tabelas */
+@import url('tabelas.css');
+
+
+/* 
+
+	Herança
+
+	1. Sobreposição / Sobrescreve
+	2. Aplica a último estilo definido
+	3. Prioriza estilo específicas (com seletores mais próximos)
+	4. Se aplica a todas as propriedades
+
+ */
+
+
+html {
+	font-family: sans-serif;
+	color: #333333;
+}
+
+p {
+   color: #000000 ;
+   font-family: 'Lobster', cursive;
+   font-family: 'Sansita Swashed', cursive;
+}
+
+header p {
+	color: #836FFF ;
+	font-size: 1.8rem;
+	text-transform: uppercase;
+	padding: 0.1rem;
+}
+
+
+/* 
+
+	Combinadores 
+	
+	(espaço) seletor descendente 
+	(>) combinador de seletores filhos
+	(+) combinador de elementos irmãos adjacentes / que vem logo na sequencia
+	(~) combinador de elementos irmãos geral / após elemento de referência
+
+	
+*/
+
+
+header h2 {
+	font-weight: 100;
+}
+
+
+header > h2 {
+	font-weight: 800;
+}
+
+h2 + p {
+	background: #836FFF;
+	color: #333;
+}
+
+h2 ~ h5 {
+	font-size: 1.6rem;
+}
+
+div ~ p {
+	text-transform: uppercase;
+}
+
+
+/* Pseudo-classes */
+
+a {
+	color: #555555;
+	text-decoration: none; /* o padrão é underline */
+	font-size: 1.5rem;
+	display: block;
+	width: 100%;
+	height: auto;
+}
+
+a:visited {
+	color: #f00;
+}
+
+a:active {
+	color: #096;
+}
+
+a:hover {
+	color: rgb(216, 139, 216);
+	background: #eee;
+}
+
+h2:hover {
+	color: rgb(71, 138, 112);
+}
+
+
+/* 
+	Tipografia
+*/
+
+html {
+	font-family: sans-serif;
+}
+
+h1, h2, h3 {
+	font-weight: 400;
+	font-family: 'Lobster', cursive;
+    font-family: 'Sansita Swashed', cursive;	
+    padding: 1.0rem;
+}
+
+p {
+	font-weight: normal;
+	font-size: 1.4rem;
+}
+
+ul {
+	padding-left: .5rem;
+	margin-left: .5rem;	
+}
+
+li {
+	letter-spacing: 0.01rem;
+	font-family: sans-serif;
+	line-height: 1.5;
+}
+
+h3 {
+	/* declaração resumida / completa */
+	font-family: 'Lobster', cursive;
+    font-family: 'Sansita Swashed', cursive;
+    color: 	#40E0D0;
+    font-size: 1.6rem;
+}
+
+
+/* 
+
+	Cores
+
+*/
+
+body {
+	background: url('../imagens/java.jpeg') center top no-repeat;
+}
+
+section {
+	background: transparent;
+}
+
+p {
+	color: #191970;
+	color: #191970;
+}
+
+header,
+footer {
+	background-color: rgb(4, 4, 43);
+	color: #f7f3ef;
+}
+
+header h5 {
+	color: #FF8C00;
+}
+
+footer p {
+	color: #FF8C00;
+}
+
+.navegacao {
+	background-color: rgb(241, 215, 241);
+	padding: 0.5rem;
+}
+
+.navegacao li a {
+	color: #333;
+	font-size: 1.4rem;
+}
+
+.navegacao li a:hover {
+	background-color: palegoldenrod;
+	color: #333333;
+}
+.module h1 {
+	color:	#FF8C00;
+}
+.module header h2 {
+	color: 	#ebe5de;
+	text-align: center;
+}
+.module li {
+	color: red;
+	font-size: 1.5rem;
+}
+.module article p {
+	color: purple;
+	font-size: 1.6rem;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+} 
+.module h4 {
+	font-size: 1.5rem;
+	color: purple;
+}
+.paragraph {
+	width: 90%;
+	background-color: rgb(240, 230, 230);
+	padding: 1.2rem;
+
+}
