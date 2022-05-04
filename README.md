@@ -22,4 +22,24 @@ Informação de alteração
  - DOD Definition of Done: critério de aceite
  - versionamento 0.2.11 - tipo de versão
  - só commitar o repositório se ele não tiver nenhum problema
+ - git fetch (checa se não há nenhuma alteração no repositório)
+
+ - git checkout -b dev (cria uma branch)
+ - git checkout master (mudar de branch)
+
+
+ ## Merge 
+ - mescla de branchs
+ - git merge main (mescla o código na branch que você está trabalhando)
+ - Você pode precisar resolver os conflitos manualmente
+
+ ## Pull Requests
+ - mescla de branchs no repositório
+ - Permite code review
+ - O repositório resolve os conflitos automaticamente
+
+ ## configura o GitFlow
+ - git flow init
+ - git flow feature start {nome-da-feature}
+ 
 
