@@ -35,7 +35,7 @@ header{
     display: block;
     float: left;
     padding: 10px;
-    width: 100%;
+    width: 101.5%;
     border-bottom: 1px solid #FFA07A;
 }
 
@@ -66,6 +66,22 @@ section nav {
 
 }
 
+.first-part p {
+    display: block;
+    float: right;
+    width: 97%;
+
+
+}
+
+.second-part p{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 400px;
+    margin-inline-end: 0px;
+}
+
 .logo {
     width: 250px;
     cursor: pointer;
@@ -76,6 +92,20 @@ section nav {
 nav ul li a {
     text-decoration: none;
     color: black;
+    font-size: 1.9rem;
+    line-height: 30px;
+    font-family: 'Fjalla One', sans-serif;
+    font-family: 'Lobster', cursive;
+    font-family: 'Lobster Two', cursive;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Pathway Gothic One', sans-serif;
+    font-family: 'Sansita Swashed', cursive;
+    }
+
+nav li {
+    background-color:	#d6f3a8 ;
+    margin: 5px 0;
+    padding: 10px;
 }
 
 nav ul li a:hover{
@@ -151,7 +181,7 @@ footer{
     color: white;
     display: block;
     float: left;
-    width: 100%;
+    width: 101.5%;
     padding: 10px;
 }
 
@@ -172,10 +202,45 @@ footer small {
     visibility: hidden !important;
 }
 
+.cognito{
+    display: block;
+    float: left;
+    width: 70%;
+    text-align: left;
+}
+
 #tenho-interesse {
-    background-color: #2F4125;
+    background-color: #d6f3a8;    
     width: 100%;
 
+}
+
+.container h1 {
+    color: #000212;
+    display: block;
+    float: left;
+    width: 70%;
+    text-align: left;
+}
+
+.container p {
+    color: #000212;
+    display: block;
+    float: left;
+    width: 70%;
+    text-align: left;
+}
+
+@media(max-width:420px) {
+    section nav,
+    section article {
+        width: 100%;
+    }
+
+    .container {
+        padding-left: 1%;
+        padding-right: 1%;
+    }
 }
 
 
