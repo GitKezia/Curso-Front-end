@@ -15,15 +15,17 @@ body{
 .main-container{
     display: block;
     width: 100%;
+    margin: 0;
     
 }
 
 .container{
-    padding: 7px;
-    width: 100%;
+    padding: 0;
     display: block;
     float: left;
     margin: 0 auto;
+    max-width: 1198px;
+    width: 100%;
 }
 img {
    display: block;
@@ -31,10 +33,16 @@ img {
    margin-right: auto;
 }
 
+.logo img {
+    display: block;
+    margin-left: 201%;
+    margin-right: auto;
+ }
+
 header{
     display: block;
     float: left;
-    padding: 10px;
+    padding: 10px 0;
     width: 101.5%;
     border-bottom: 1px solid #FFA07A;
 }
@@ -54,8 +62,8 @@ section {
     display: block;
     font-size: 20px;
     float: left;
-    padding: 20px;
-    width: 100%;
+    padding: 20px 0;
+    width: 101.5%;
 
 }
 
@@ -110,13 +118,6 @@ nav li {
 
 nav ul li a:hover{
     color: #FFBF9C;
-}
-
-.main-container a{
-    padding: 1px;
-    text-decoration: none;
-    display: block;
-    border-radius: 5px;
 }
 
 h1 {
@@ -182,7 +183,7 @@ footer{
     display: block;
     float: left;
     width: 101.5%;
-    padding: 10px;
+    padding: 10px 0;
 }
 
 footer p {
@@ -205,13 +206,17 @@ footer small {
 .cognito{
     display: block;
     float: left;
-    width: 70%;
+    width: 100%;
     text-align: left;
+}
+
+.el-input {
+    width: 100%;
 }
 
 #tenho-interesse {
     background-color: #d6f3a8;    
-    width: 100%;
+    width: 101.5%;
 
 }
 
@@ -243,6 +248,99 @@ footer small {
     }
 }
 
+#banner {
+    background-image: url('https://static.clubedaanamariabraga.com.br/wp-content/uploads/2018/10/bolsa-croche.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100vw;
+    height: 70vh;
+
+}
+
+.legenda-container {
+    width: 30vw;
+    float: right;
+    margin: 10vh 10vh 0 0; 
+   
+
+}
+
+.legenda {
+    background-color: rgb(197, 255, 183);
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 5rem;
+    
+}
+
+.legenda h5,
+.legenda h4 {
+    color:#FFA07A;
+    line-height: 150%;
+    font-family: 'Fjalla One', sans-serif;
+    font-family: 'Lobster', cursive;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Sansita Swashed', cursive;
+    text-align: left;
+}
+
+.button-cta {
+    border-radius: 25px;
+    display: inline;
+    background-color: #2F4125;
+    color: #f4f6fc;
+    font-size: 1.5rem;
+    box-shadow: 2px 2px 4px #ffb188;
+    padding: 10px 15px;
+    width: auto;
+    text-decoration: none;
+    font-weight: 300;
+    text-transform: uppercase;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+#saiba-mais {
+    background-color: #FFBF9C;
+    padding: 40px 0;
+}
+
+#saiba-mais p,
+#saiba-mais img {
+    width: 45%;
+    display: block;
+    float: left;
+    padding: 20px;
+}
+
+dl {
+    margin: 70px 10px;
+    padding: 2rem
+}
+
+dt {
+    font-weight: 700;
+    font-family: 'Fjalla One', sans-serif;
+    font-family: 'Lobster', cursive;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Sansita Swashed', cursive;
+    text-align: left;
+    
+}
+
+dd {
+    margin-left: 30px;
+    margin-bottom: 30px;
+    padding: 1rem;
+    height: 2rem;
+
+}
+
+.description img {
+    width: 80vw;
+    height: 60vh;
+}
 
 /* nav ul li {
     display: block;
