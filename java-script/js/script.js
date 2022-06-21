@@ -35,29 +35,26 @@ function calcularMedia(notas) {
 
     // contagemRegressiva(50);
 
-    document.addEventListener('submit', function(evento){
+    document.getElementById('formulario-01').addEventListener('submit', function(evento){
 
         evento.preventDefault();
         evento.stopPropagation();
 
-        let formulario = document.getElementById('formulario-01');
 
-        let dados = new FormData(formulario);
-
-        let objeto = {};
+        let dados = new FormData(this);
 
         let notas = [];
 
         for(let key of dados.keys()) {
 
-            objeto[key] = dados.get(key);
+         let numero = dados.get(key).match(/\d/) ? Number(dados.get(key)) : 0; // é um número
 
-            notas.push(parseInt(dados.get(key)));
+         if(!isNaN(numero)) {
+            notas.push(numero)
+         }
         }
 
         console.log(notas);
-
-        console.log(objeto);
 
         texto = aprovacao(notas);
 

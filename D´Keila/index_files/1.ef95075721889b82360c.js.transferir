@@ -1,2 +1,0 @@
-(window.cfWebpackJsonp=window.cfWebpackJsonp||[]).push([[1],{128:function(o,n,t){"use strict";function c(o,n,t){this.$children.forEach((function(a){a.$options.componentName===o?a.$emit.apply(a,[n].concat(t)):c.apply(a,[o,n].concat([t]))}))}n.__esModule=!0,n.default={methods:{dispatch:function(o,n,t){for(var c=this.$parent||this.$root,a=c.$options.componentName;c&&(!a||a!==o);)(c=c.$parent)&&(a=c.$options.componentName);c&&c.$emit.apply(c,[n].concat(t))},broadcast:function(o,n,t){c.call(this,o,n,t)}}}}}]);
-//# sourceMappingURL=1.ef95075721889b82360c.js.map
